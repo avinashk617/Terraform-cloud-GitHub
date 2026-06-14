@@ -16,4 +16,7 @@ provider "aws" {
 resource "aws_instance" "Raminfra" {
 	ami = "ami-00e801948462f718a" 
 	instance_type = "t2.micro"
+tag = {
+	name = "Avinash_Server"
+	  }
 }
