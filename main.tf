@@ -17,6 +17,6 @@ resource "aws_instance" "Avinashinfra" {
 	ami = "ami-00e801948462f718a" 
 	instance_type = "t2.micro"
 tags = {
-	Name = "Avinash_Server"
+	Name = "Singh_Server"
 	  }
 }
