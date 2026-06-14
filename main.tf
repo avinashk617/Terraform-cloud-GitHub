@@ -13,10 +13,10 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Raminfra" {
+resource "aws_instance" "Avinashinfra" {
 	ami = "ami-00e801948462f718a" 
 	instance_type = "t2.micro"
-tag = {
+tags = {
 	name = "Avinash_Server"
 	  }
 }
